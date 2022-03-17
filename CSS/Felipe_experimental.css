@@ -51,11 +51,11 @@ body {
 }
 
 .flexbox-weather {
-    min-height: 500px;
-    min-width: 300px;
+    min-height: 400px;
+    min-width: 400px;
 }
 
 .flexbox-events {
-    min-height: 500px;
-    min-width: 300px;
+    min-height: 550px;
+    min-width: 400px;
 }
