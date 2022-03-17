@@ -1,0 +1,51 @@
+/* COLORS
+SOURCE - https://coolors.co/palette/588b8b-ffffff-ffd5c2-f28f3b-c8553d
+
+Steel Teal - #588B8B
+White - #FFFFFF
+Unbleached Silk - #FFD5C2
+Cadmium Orange - #F28F3B
+Cedar Chest - #C8553D
+*/
+
+body {
+    background-image: url("/groupProject_week6/Images/img_1605.jpg");
+    background-size: 2000px;
+
+}
+
+.row-hl {
+    background: white;
+    height: 500px;
+}
+
+/* .crossfade > figure {
+    animation: imageAnimation 30s linear infinite 0s;
+    backface-visibility: hidden;
+    background-size: cover;
+    background-position: center center;
+    color: transparent;
+    height: 100%;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 0;
+} */
+
+.navbar {
+    width: 100%;
+    box-sizing: border-box;
+    /* background-color: #588B8B; */
+    color: black;
+}
+
+/* buttons{
+
+}
+
+buttons:hover {
+
+}
+ */
