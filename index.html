@@ -5,7 +5,41 @@
     <link rel="stylesheet" href="CSS/travelApp.css" type="text/css">
 </head>
 
+
+
 <body>
+    <script>
+
+        let cityName = //search bar user input ex: 'atlanta'
+        
+        fetch(`http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=9361bd03ec7175e9eea92fdf7a717518`)
+        .then(result => {
+            return result.json()
+        })
+        .then(data =>{
+            console.log(data)
+        
+            let kelvin = data.main.temp; 
+        
+        
+            let degC = kelvin - 273.15; 
+        
+        
+            let degF = Math.floor((degC * 1.8) + 32); 
+        
+            console.log(degF)
+        
+            let div = document.querySelector('div');
+        
+            div.textContent = `Current Temperature in ${cityName} is ${degF}º`
+        
+        })
+        
+        
+        
+            </script>
+    
+    
     <div class="header">
 
     <!-- <video autoplay loop class="back-video" muted plays-inline>
@@ -27,6 +61,7 @@
         <h1>Adventure Awaits</h1>
         <form>
             <input type="text" placeholder="&#x270e; Enter Keyword">
+            
             <button type="submit">New Destination</button>
         </form>
     
