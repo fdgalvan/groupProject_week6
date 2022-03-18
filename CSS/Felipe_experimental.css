@@ -19,7 +19,7 @@ body {
 /* =============== HEADER INFO =============== */
 
 .header-container {
-    height: 225px;
+    height: 125px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,7 +42,8 @@ body {
 
 .title {
     justify-content: center;
-    padding: 40px;
+    color: white;
+    padding: 20px;
     font-size: 50px;
     font-family: 'Syncopate', sans-serif;;
 }
@@ -103,16 +104,8 @@ body {
     background-color: whitesmoke;
 }
 
-<<<<<<< HEAD
 /* left/top box */
 .flexbox-weather { 
-=======
-.flexbox-weather {
-<<<<<<< HEAD
->>>>>>> main
-=======
-<<<<<<< HEAD
->>>>>>> main
     min-height: 400px;
     min-width: 400px;
 }
@@ -121,13 +114,4 @@ body {
 .flexbox-events {
     min-height: 550px;
     min-width: 400px;
-=======
-    min-height: 500px;
-    min-width: 300px;
-}
-
-.flexbox-events {
-    min-height: 500px;
-    min-width: 300px;
->>>>>>> a74756c9f3304366edb4b35555b2417fb7dfc1eb
 }
