@@ -10,34 +10,7 @@
 <body>
     <script>
 
-        let cityName = //search bar user input ex: 'atlanta'
-        
-        fetch(`http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=9361bd03ec7175e9eea92fdf7a717518`)
-        .then(result => {
-            return result.json()
-        })
-        .then(data =>{
-            console.log(data)
-        
-            let kelvin = data.main.temp; 
-        
-        
-            let degC = kelvin - 273.15; 
-        
-        
-            let degF = Math.floor((degC * 1.8) + 32); 
-        
-            console.log(degF)
-        
-            let div = document.querySelector('div');
-        
-            div.textContent = `Current Temperature in ${cityName} is ${degF}º`
-        
-        })
-        
-        
-        
-            </script>
+    </script>
     
     
     <div class="header">
@@ -60,14 +33,9 @@
     <div class="content">
         <h1>Adventure Awaits</h1>
         <form>
-<<<<<<< HEAD
-            <input type="text" placeholder="&#x270e; Enter Keyword">
+            <input id = "input" type="text" placeholder="&#x270e; Enter Your Destination City">
             
-            <button type="submit">New Destination</button>
-=======
-            <input type="text" id="input" placeholder="&#x270e; Enter Keyword">
-            <button type="submit" id="button">New Destination</button>
->>>>>>> 2f061265cdec0749a936a4dfa5d86a588c113eaf
+            <button id = "button" type="submit">Start Your Adventure!</button>
         </form>
     
     </div>
