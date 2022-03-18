@@ -8,24 +8,72 @@ Cadmium Orange - #F28F3B
 Cedar Chest - #C8553D
 */
 
+/* font-family: 'Syncopate', sans-serif; */
+
 body {
-    background-image: url("/groupProject_week6/Images/img_1605.jpg");
+    background-image: url("/groupProject_week6/Images/lamas.jpeg");
     background-size: 2000px;
 }
 
-.header {
-    height: 150px;
+/* =============== HEADER INFO =============== */
+
+.header-container {
+    height: 225px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #588B8B;
+    border: 3px solid black;
 }
 
-.navbar-brand {
+.flexbox-header {
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid red;
+    margin: top;
+    width: 2000px;
+}
+
+.header-logo {
+    justify-content: center;
+    padding: 60px;
+}
+
+.title {
+    justify-content: center;
+    padding: 40px;
+    font-size: 50px;
+    font-family: 'Syncopate', sans-serif;;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100px;
+    border: 3px solid purple;
+    justify-content: center;
+}
+
+/* .titleName{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    width: 90%;
+    max-width: 900px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    padding-top:50px;
+} */
+
+/* .navbar-brand {
     font-size: 40px;
     justify-content: center;
     width: 500px;
-}
+} */
+
+/* =============== SEARCHBAR CONTENT ============== */
 
 .search-container {
     display: flex;
@@ -33,7 +81,10 @@ body {
 }
 .btn {
     background-color: #C8553D;
+    outline: black;
 }
+
+/* =============== INFO CONTAINERS =============== */
 
 .flexbox-container {
     display: flex;
@@ -50,12 +101,14 @@ body {
     background-color: whitesmoke;
 }
 
-.flexbox-weather {
-    min-height: 500px;
-    min-width: 300px;
+/* left/top box */
+.flexbox-weather { 
+    min-height: 400px;
+    min-width: 400px;
 }
 
+/* right/bottom box */
 .flexbox-events {
-    min-height: 500px;
-    min-width: 300px;
+    min-height: 550px;
+    min-width: 400px;
 }
