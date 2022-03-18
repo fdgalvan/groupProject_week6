@@ -11,19 +11,21 @@ Cedar Chest - #C8553D
 /* font-family: 'Syncopate', sans-serif; */
 
 body {
-    background-image: url("/groupProject_week6/Images/lamas.jpeg");
+    background-image: url("/groupProject_week6/Images/lamas.jpeg");background-repeat:no-repeat;
     background-size: 2000px;
-    /* background: black; */
+    background-attachment: fixed;
+    background-color: black;
+    justify-content: center;
 }
 
 /* =============== HEADER INFO =============== */
 
 .header-container {
-    height: 125px;
+    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #588B8B;
+    background-color: #1a3535;
     border: 3px solid black;
 }
 
@@ -38,6 +40,7 @@ body {
 .header-logo {
     justify-content: center;
     padding: 60px;
+    color: white;
 }
 
 .title {
@@ -49,13 +52,38 @@ body {
 }
 
 .nav-links {
+    padding: 15px 0;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     min-height: 100px;
-    font-size: 20px;
-    /* border: 3px solid purple; */
+    font-size: 15px;
     justify-content: center;
+}
+
+.nav-links li{
+    display:inline-block;
+    margin: 0 15px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0;
+    position: relative;
+}
+
+.nav-links li a::after{
+    content: '';
+    background: #ff3d00;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+.nav-links li a:hover::after{
+    width: 100%;
 }
 
 /* .titleName{
@@ -97,6 +125,7 @@ body {
 }
 
 .flexbox-item {
+    opacity: 0.75;
     width: 300px;
     margin: 25px;
     border: 3px solid black;
