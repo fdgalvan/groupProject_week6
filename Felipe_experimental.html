@@ -10,18 +10,33 @@
     <script src="https://kit.fontawesome.com/d19769bedc.js" crossorigin="anonymous"></script>
     <!-- <link rel="stylesheet" href="CSS\travelApp.css"> -->
     <link rel="stylesheet" href="css/Felipe_experimental.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <header class="header">
+    <header class="header-container">
         <div>
             <nav class="p-5 navbar navbar-light">
-                <div class="container-fluid">
-                    <i class="fa-2xl fa-solid fa-map-location-dot"></i>
-                    <a class="navbar-brand" href="#">
-                    TRAVEL STUFF
-                    </a>
+                <div class="flexbox-header">
+                    <i class="header-logo fa-xl fa-solid fa-map-location-dot" href=""></i>
+                    <div class="title">Where's the Party At?!</div>
+                    <nav>
+                        <ul  class="nav-links" style="list-style-type:none;">
+                            <li><a href="">Home</a></li>
+                            <br>
+<!--                             
+                            <li><a href="">Weather</a></li>
+                            
+                            <li><a href="">Hotels</a></li>
+                            
+                            <li><a href="">Contact</a></li> -->
+                            
+                            <li class="btn btn-outline-black">About Us</li>
+                        </ul>
+                    </nav>
                 </div>
             </nav>
         </div>
@@ -31,8 +46,8 @@
         <nav class="navbar navbar-light">
             <div class="container-fluid">
                 <form class="row d-flex">
-                    <input class="offset-0 col-1 p-4 form-control me-5" type="search" placeholder="Enter Your Destination" aria-label="Search">
-                    <button class="btn btn-outline-black btn-primary" type="submit">Search</button>
+                    <input class="searchBar offset-0 col-1 p-4 form-control me-5" type="search" placeholder="Enter Your Destination" aria-label="Search">
+                    <button class="btn btn-outline-black" type="submit">Search</button>
                 </form>
             </div>
         </nav>
