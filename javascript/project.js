@@ -27,6 +27,10 @@
     
         console.log(degF)
 
+        // let div = document.querySelector('div');
+
+        // div.textContent = `Current Temperature in ${cityName} is ${degF}º`
+
 
     })
 
