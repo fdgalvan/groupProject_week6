@@ -102,8 +102,12 @@ body {
     background-color: whitesmoke;
 }
 
+<<<<<<< HEAD
 /* left/top box */
 .flexbox-weather { 
+=======
+.flexbox-weather {
+>>>>>>> main
     min-height: 400px;
     min-width: 400px;
 }
