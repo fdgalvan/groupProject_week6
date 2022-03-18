@@ -1,3 +1,12 @@
+body{
+    
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/groupProject_week6/Images/lamas.jpeg");
+    background-repeat: no-repeat;
+    
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -6,9 +15,9 @@
 }
 
 .header{
-    height: 100vh;
+    height: 50px;
     width: 100%;
-    padding: 0 8%;
+    padding: 0 2%;
     background: #080008;
     position: relative;
 }
