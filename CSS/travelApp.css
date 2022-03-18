@@ -1,15 +1,25 @@
-*{
+body {
+    background-image: url("/test_bench/images/lamas.jpeg");background-repeat:no-repeat;
+    background-size: 2000px;
+    background-attachment: fixed;
+    background-color: black;
+    justify-content: center;
+}
+
+
+/* *{
     margin: 0;
     padding: 0;
     font-family: "poppins", sans-serif;
     box-sizing: border-box;
-}
+    background-color: black;
+} */
 
 .header{
-    height: 100vh;
+    height: 150px;
     width: 100%;
     padding: 0 8%;
-    background: #080008;
+    /* background: #080008; */
     position: relative;
 }
 
@@ -20,6 +30,12 @@ nav{
 }
 .logo{
     width: 140px;
+}
+
+.llamas {
+    display: flex;
+    background-size: 2000px;
+    justify-content: center;
 }
 
 .nav-links{
@@ -49,6 +65,7 @@ nav{
 .nav-links li a:hover::after{
     width: 100%;
 }
+
 .btn{
     background:#ff3d00 ;
     color: #fff;
@@ -59,7 +76,7 @@ nav{
 .content{
     position:absolute;
     left: 50%;
-    top: 50%;
+    top: 25%;
     width: 70%;
     max-width: 550px;
     transform: translate(-50%, -50%);
@@ -116,4 +133,35 @@ img{
         width: auto;
         height:100;
     }
+}
+
+/* =============== INFO CONTAINERS =============== */
+
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 250px;
+    /* background: #080008; */
+}
+
+.flexbox-item {
+    opacity: 0.75;
+    width: 300px;
+    margin: 25px;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+/* left/top box */
+.flexbox-weather { 
+    min-height: 400px;
+    min-width: 400px;
+}
+
+/* right/bottom box */
+.flexbox-events {
+    min-height: 550px;
+    min-width: 400px;
 }
