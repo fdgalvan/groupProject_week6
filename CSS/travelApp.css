@@ -106,14 +106,25 @@ nav{
     background: #000;
 } */
 
-img{
+/* img{
     width: auto;
     height: auto;
+    padding: 30px;
+    
+    /* padding-bottom: 30px; */
+
+.llamas{
+    display: flex;
+    background-size: 2000px;
+    justify-content: center;
 }
 
-@media(max-aspect-ratio:16/9){
+
+/* @media(max-aspect-ratio:16/9){
     .back-video{
         width: auto;
-        height:100;
+        height:auto;
+        max-width: auto;
+
     }
-}
+} */
