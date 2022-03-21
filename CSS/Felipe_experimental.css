@@ -11,7 +11,7 @@ Cedar Chest - #C8553D
 /* font-family: 'Syncopate', sans-serif; */
 
 body {
-    background-image: url("/groupProject_week6/Images/lamas.jpeg");background-repeat:no-repeat;
+    background-image: url("../Images/lamas.jpeg");background-repeat:no-repeat;
     background-size: 2000px;
     background-attachment: fixed;
     background-color: black;
