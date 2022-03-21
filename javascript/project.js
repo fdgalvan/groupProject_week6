@@ -12,6 +12,10 @@
 
             console.log(cityData._embedded.events)
 
+        let events = document.querySelector('.flexbox-events');
+        events.textContent = `Local events in ${cityName} are ${cityData._embedded.events}`;
+        
+
         
 
         
