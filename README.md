@@ -53,3 +53,9 @@ Base Objectives:
 Challenges & Solutions:
 
 Some of the biggest challenges we faced with this project build included:
+
+- A few of the difficulties with this project were finetuning aspects of CSS, Bootstrap, and HTML, balancing and centering.
+Solution: But once we got deeper into it and started reading more and discovering more tools to use, it became more fun as we went. 
+
+- Another one of the challenges we also found most difficult with this project was pulling specific parameters from the APIs and printing them in two different result containers. Creating a layout for the results also was difficult.
+Solution: We created a querySelector to select a portion of the html to be able to print out the result into the page. We created an interpulated result to be able to print out into the boxes that were created into the page.  
