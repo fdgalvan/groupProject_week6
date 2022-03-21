@@ -12,6 +12,12 @@
 
             console.log(cityData._embedded.events)
 
+        let events = document.querySelector('.flexbox-events');
+        events.textContent = `Local events in ${cityName} are ${cityData._embedded.events}`;
+        
+
+        
+
         
         let weatherResults = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=9361bd03ec7175e9eea92fdf7a717518`)
         let weatherData = await weatherResults.json();
@@ -27,10 +33,15 @@
     
         console.log(degF)
 
+        let weather = document.querySelector('.flexbox-weather');
+        weather.textContent = `Current Temperature in ${cityName} is ${degF}º`
+
+        
+        
+
         // let div = document.querySelector('div');
 
-        // div.textContent = `Current Temperature in ${cityName} is ${degF}º`
-
+       
 
     })
 
